@@ -2,7 +2,7 @@ const express=require("express");
 const app=express();
 const path=require("path");
 const mongoose=require("mongoose");
-const chat=require("./models/chat.js");
+const Chat=require("./models/chat.js");
 
 const PORT = 8080
 
